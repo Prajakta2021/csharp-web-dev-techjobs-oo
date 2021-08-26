@@ -21,6 +21,7 @@ namespace TechJobsOO
             foreach (Job job in jobs)
             {
                 Console.WriteLine(job);
+                Console.ReadLine();
             }
             
         }

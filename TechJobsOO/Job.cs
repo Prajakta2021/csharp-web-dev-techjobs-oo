@@ -11,6 +11,7 @@ namespace TechJobsOO
         public Location EmployerLocation { get; set; }
         public PositionType JobType { get; set; }
         public CoreCompetency JobCoreCompetency { get; set; }
+        public string test_Name { get; set; }
 
         // TODO: Add the two necessary constructors.
         public Job()
