@@ -42,6 +42,27 @@ namespace TechJobsOO
         {
             return base.GetHashCode();
         }
-       
+
+        public override string ToString()
+        {
+            if (Name == "" && EmployerName.Value == "" && EmployerLocation.Value == "" && JobType.Value == "" && JobCoreCompetency.Value == "")
+            {
+               return "Data not available";
+
+            }
+
+            else {
+                return "\n" + "ID:  " + Id + 
+                        "\n" + "Name:  " + Name + 
+                        "\n" + "Employer:  " + EmployerName +
+                        "\n" + "Location:  " + EmployerLocation +
+                        "\n" + "Position Type:  " + JobType + 
+                        "\n" + "Core Competency:  " + JobCoreCompetency;
+
+            }
+        }
+
     }
+
 }
+            
