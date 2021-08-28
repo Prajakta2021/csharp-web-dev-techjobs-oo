@@ -50,7 +50,6 @@ namespace TechJobsOO
                return "Data not available";
 
             }
-
             else {
                 return "\n" + "ID:  " + Id + 
                         "\n" + "Name:  " + Name + 
@@ -58,7 +57,6 @@ namespace TechJobsOO
                         "\n" + "Location:  " + EmployerLocation +
                         "\n" + "Position Type:  " + JobType + 
                         "\n" + "Core Competency:  " + JobCoreCompetency;
-
             }
         }
 
